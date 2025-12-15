@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="css/style.css" rel="stylesheet">
+  <!-- TailwindCSS CDN  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>プログラミング基礎 - 問題集02</title>
+</head>
+<body>
+<div class="wrapper min-h-screen bg-gray-50">
+
+  <div class="container mx-auto py-10">
+    <h1 class="text-3xl mb-32">JavaScriptではじめるプログラミング基礎</h1>
+
+    <!-- 10 ~ 14 -->
+
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="10">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        10. 0 or not 0
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          整数を入力して、その値が 0 なら「 ZERO 」、
+          0 でなければ「 not ZERO 」とコンソールに表示する。
+        </p>
+      </div>
+      <div class="flex mb-10">
+        <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+          <p class="text-sm">
+            Q10. 数値を入力
+          </p>
+        </div>
+      </div>
+      <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+        <p class="text-sm">
+          入力した数値：0<br>
+          ZERO
+        </p>
+        <p class="text-sm mt-3">
+          入力した数値：8<br>
+          not ZERO
+        </p>
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section>
+
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="11">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        11. 都道府県の表示
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          都道府県番号を入力し、その値に該当する都道府県名をコンソールに表示する。
+          もし、該当する都道府県がない場合は、「 該当なし 」と表示する。
+        </p>
+        <p class="text-sm mt-3">
+          都道府県番号（近畿）<br>
+          25：滋賀県　26：京都府　27：大阪府　28：兵庫県　29：奈良県　30：和歌山県
+        </p>
+      </div>
+      <div class="flex mb-10">
+        <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+          <p class="text-sm">
+            Q11. 都道府県番号を入力
+          </p>
+        </div>
+      </div>
+      <div class="relative bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+        <p class="text-sm">
+          都道府県番号：27<br>
+          大阪府
+        </p>
+        <p class="text-sm mt-3">
+          都道府県番号：1<br>
+          該当なし
+        </p>
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section>
+
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="12">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        12. 偶数 or 奇数
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          整数を入力して、その値が偶数なら「 even 」、奇数なら「 odd 」とコンソールに表示する。
+        </p>
+      </div>
+      <div class="flex mb-10">
+        <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+          <p class="text-sm">
+            Q12. 整数を入力
+          </p>
+        </div>
+      </div>
+      <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+        <p class="text-sm">
+          入力した値：10<br>
+          even
+        </p>
+        <p class="text-sm mt-3">
+          入力した値：9<br>
+          odd
+        </p>
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section>
+
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="13">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        13. 入園料の計算
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          丸山動物園の入園料は、一人８００円ですが、５人以上のグループなら一人７６０円、２０人以上の団体なら一人５００円となります。
+          入園人数を入力して、その入園料金をコンソールに表示する。
+        </p>
+      </div>
+      <div class="flex mb-10">
+        <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+          <p class="text-sm">
+            Q13. 入園者数を入力
+          </p>
+        </div>
+      </div>
+      <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+        <p class="text-sm">
+          入園者数：2人<br>
+          入園料金：1600円
+        </p>
+        <p class="text-sm mt-3">
+          入園者数：17人<br>
+          入園料金：12920円
+        </p>
+        <p class="text-sm mt-3">
+          入園者数：20人<br>
+          入園料金：10000円
+        </p>
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section>
+
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="14">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        14. 成績評価の判定
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          出席率と評価点を入力し、A ~ Fの評価判定結果をコンソールに表示する。
+        </p>
+        <p class="text-sm mt-3">
+          評価判定は、出席率75％以上<br>評価点：90 ~ 100（A）　80 ~ 89（B）　70 ~ 79（C）　60 ~ 69（D）　60未満（F）<br>
+          出席率が75%未満の場合は、評価点に関わらず判定はF
+        </p>
+      </div>
+      <div class="flex mb-10">
+        <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+          <p class="text-sm">
+            Q14. 出席率の入力
+          </p>
+        </div>
+        <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+          <p class="text-sm">
+            Q14. 評価点の入力
+          </p>
+        </div>
+      </div>
+      <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+        <p class="text-sm">
+          出席率：93<br>
+          評価点：76<br>
+          判定　：C
+        </p>
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section>
+
+  </div><!-- /.container -->
+</div><!-- /.wrapper -->
+
+<script src="js/workbook-02.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

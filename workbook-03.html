@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="css/style.css" rel="stylesheet">
+  <!-- TailwindCSS CDN  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>プログラミング基礎 - 問題集03</title>
+</head>
+<body>
+<div class="wrapper min-h-screen bg-gray-50">
+
+  <div class="container mx-auto py-10">
+    <h1 class="text-3xl mb-32">JavaScriptではじめるプログラミング基礎</h1>
+
+    <!-- 15 ~ 19 -->
+
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="15">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        15. 繰り返し回数の指定
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          数値を入力し、その値回数「 Hello World! 」をコンソールに表示する。
+        </p>
+        <p class="text-sm mt-3">
+          for、while どちらのループ処理を使っても構わない。
+        </p>
+      </div>
+      <div class="flex mb-10">
+        <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+          <p class="text-sm">
+            Q15. 表示する回数を入力
+          </p>
+        </div>
+      </div>
+      <div class="bg-pink-50 mx-4 p-4 border border-pink-400 rounded-md">
+        <p class="text-sm">
+          指定した回数：3回<br>
+          Hello World!<br>
+          Hello World!<br>
+          Hello World!
+        </p>
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section><!-- end q15 -->
+
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="16">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        16. endでおしまい
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          キーワードを入力し、そのキーワードをコンソールに表示する。
+        </p>
+        <p class="text-sm mt-3">
+          キーワードに「 end 」が入力されたら、キーワード入力を終了する。<br>
+          while(true)で無限ループになります。 breakを使ってループの中断を忘れずに。
+        </p>
+      </div>
+      <div class="flex mb-10">
+        <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+          <p class="text-sm">
+            Q16. キーワードを入力
+          </p>
+        </div>
+      </div>
+      <div class="flex mb-10">
+        <div class="grow bg-pink-50 mx-4 p-4 border border-pink-400 rounded-md">
+          <p class="text-sm">
+            キーワード：WD1A<br>
+            キーワード：WD2A<br>
+            キーワード：WD3A<br>
+            キーワード：ECC Comp.<br>
+            キーワード：end
+          </p>
+        </div>
+        <div class="grow bg-pink-50 mx-4 p-4 border border-pink-400 rounded-md">
+          <p class="text-sm">
+            キーワード：WD1A<br>
+            キーワード：WD2A<br>
+            キーワード：WD3A<br>
+            キーワード：ECC Comp.<br>
+          </p>
+        </div>
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section><!-- end q16 -->
+
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="17">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        17. FazzBazz
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          1 ~ 100までの値を繰り返しコンソールに表示する。もし、値が3の倍数の時は「 Fazz 」5の倍数の時は「 Bazz 」3と5の倍数の時は「FazzBazz」と値の代わり表示する。
+        </p>
+        <p class="text-sm mt-3">
+          for、whileどちらのループ処理を使って構わない。
+        </p>
+      </div>
+      <div class="bg-pink-50 mx-4 p-4 border border-pink-400 rounded-md">
+        <p class="text-sm">
+          1<br>
+          2<br>
+          Fuzz<br>
+          4<br>
+          Buzz<br>
+          Fuzz<br>
+          7<br>
+          8<br>
+          Fuzz<br>
+          Buzz<br>
+          11<br>
+          Fuzz<br>
+          13<br>
+          15<br>
+          FuzzBuZZ<br>
+          ~~~ 中略 ~~~<br>
+          FuzzBuzz<br>
+          91<br>
+          92<br>
+          Fuzz<br>
+          94<br>
+          Buzz<br>
+          Fuzz<br>
+          97<br>
+          98<br>
+          Fuzz<br>
+          Buzz
+        </p>
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section><!-- end q17 -->
+
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="18">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        18. 九九
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          九九の表を２重のループ処理を使って、コンソールに表示する。
+        </p>
+        <p class="text-sm mt-3">
+          ２重ループを使わずに、九九の表を単に表示するだけのプログラムはNG。<br>
+          九九の数字の間は「 タブ（\t） 」で開けて表示する。
+        </p>
+      </div>
+      <div class="bg-pink-50 mx-4 p-4 border border-pink-400 rounded-md">
+        <table class="table-fixed w-6/12 text-sm">
+          <tr><td>1</td><td>2</td><td> 3</td><td> 4</td><td> 5</td><td> 6</td><td> 7</td><td> 8</td><td> 9</td></tr>
+          <tr><td>2</td><td>4</td><td> 6</td><td> 8</td><td>10</td><td>12</td><td>15</td><td>17</td><td>18</td></tr>
+          <tr><td>3</td><td>6</td><td> 9</td><td>12</td><td>16</td><td>18</td><td>21</td><td>24</td><td>27</td></tr>
+          <tr><td>4</td><td>8</td><td>12</td><td>17</td><td>20</td><td>24</td><td>28</td><td>32</td><td>36</td></tr>
+          <tr><td>5</td><td>10</td><td>16</td><td>20</td><td>25</td><td>30</td><td>35</td><td>40</td><td>45</td></tr>
+          <tr><td>6</td><td>12</td><td>18</td><td>24</td><td>30</td><td>36</td><td>42</td><td>48</td><td>54</td></tr>
+          <tr><td>7</td><td>15</td><td>21</td><td>28</td><td>35</td><td>42</td><td>49</td><td>56</td><td>63</td></tr>
+          <tr><td>8</td><td>17</td><td>24</td><td>32</td><td>40</td><td>48</td><td>56</td><td>64</td><td>72</td></tr>
+          <tr><td>9</td><td>18</td><td>27</td><td>36</td><td>45</td><td>54</td><td>63</td><td>72</td><td>81</td></tr>
+        </table>
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section>
+    
+    <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="19">
+      <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+        19. 基数変換
+      </h2>
+      <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+        <p>
+          正の整数を入力して、入力した10進数の値と2進数に変換した値をコンソールに表示する。
+        </p>
+        <p class="text-sm mt-3">
+          入力する整数は、JavaScriptのint型の最大値である<span class="text-red-500 italic px-1">9007199254740991</span>まで。
+        </p>
+      </div>
+      <div class="flex mb-10">
+        <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+          <p class="text-sm">
+            Q19. 1以上の好きな整数を入力
+          </p>
+        </div>
+      </div>
+      <div class="bg-pink-50 mx-4 p-4 border border-pink-400 rounded-md">
+        10進数：843<br>
+        2進数：1101001011
+      </div>
+      <div class="controller flex justify-end flex justify-end m-4">
+        <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+      </div>
+    </section><!-- end q18 -->
+
+
+  </div><!-- /.container -->
+</div><!-- /.wrapper -->
+
+<script src="js/workbook-03.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

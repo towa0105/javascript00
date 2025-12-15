@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="CSS/style.css" rel="stylesheet">
+  <!-- TailwindCSS CDN  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>プログラミング基礎 - 問題集01</title>
+</head>
+
+<body>
+  <div class="wrapper min-h-screen bg-gray-50">
+
+    <div class="container mx-auto py-10">
+      <h1 class="text-3xl mb-32">JavaScriptではじめるプログラミング基礎</h1>
+
+      <!-- 01 ~ 09 -->
+
+      <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="1">
+        <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+          01. 文字列の表示
+        </h2>
+        <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+          <p>「 Hello World! 」という文字をコンソールに表示する。</p>
+        </div>
+        <div class="bg-fuchsia-50 m-4 mb-10 mb-10 p-4 border border-fuchsia-400 rounded-md">
+          <p class="text-sm">
+            Hello World!
+          </p>
+        </div>
+        <div class="controller flex justify-end flex justify-end m-4">
+          <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+        </div>
+      </section>
+
+      <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="2">
+        <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+          02. 文字列の連結
+        </h2>
+        <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+          <p>
+            「 EC 」と「 C 」を連結して「 ECC 」という文字をコンソールに表示する。
+          </p>
+        </div>
+        <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+          <p class="text-sm">
+            ECC
+          </p>
+        </div>
+        <div class="controller flex justify-end m-4">
+          <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+        </div>
+      </section>
+
+      <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="3">
+        <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+          03. データの入力と表示
+        </h2>
+        <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+          <p>
+            好きなメッセージを入力し、入力したメッセージをコンソールに表示する。
+          </p>
+        </div>
+        <div class="flex mb-10">
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q03. メッセージを入力
+            </p>
+          </div>
+        </div>
+        <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+          <p class="text-sm">
+            ECCコンピュータ専門学校　マルチメディア研究学科　Webデザインコース
+          </p>
+        </div>
+        <div class="controller flex justify-end m-4">
+          <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+        </div>
+      </section>
+
+      <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="4">
+        <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+          04. 数値の計算
+        </h2>
+        <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+          <p>
+            ２つの数値を入力して、その値の合計をコンソールに表示する。
+            「 123 + 456 = 579 」のように計算式もコンソールに表示する。
+          </p>
+        </div>
+        <div class="flex mb-10">
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q04. １つ目の数値を入力
+            </p>
+          </div>
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q04. ２つ目の数値を入力
+            </p>
+          </div>
+        </div>
+        <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+          <p class="text-sm">
+            100 + 14 = 144
+          </p>
+        </div>
+        <div class="controller flex justify-end m-4">
+          <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+        </div>
+      </section>
+
+      <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="5">
+        <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+          05. 余り
+        </h2>
+        <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+          <p>
+            ２つの数値を入力して、その余りを表示する。
+            「 10 ÷ 3 の余りは 1 」のように計算式もコンソールに表示する。
+          </p>
+        </div>
+        <div class="flex mb-10">
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q05. １つ目の数値を入力
+            </p>
+          </div>
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q05. ２つ目の数値を入力
+            </p>
+          </div>
+        </div>
+        <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+          <p class="text-sm">
+            25 ÷ 2 の余りは 1
+          </p>
+        </div>
+        <div class="controller flex justify-end m-4">
+          <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+        </div>
+      </section>
+
+      <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="6">
+        <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+          06. 四則演算　その１
+        </h2>
+        <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+          <p>
+            2つの整数を入力して、その値の和・差・積・除をコンソールに表示する。
+          </p>
+        </div>
+        <div class="flex mb-10">
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q06. １つ目の整数を入力
+            </p>
+          </div>
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q06. ２つ目の整数を入力
+            </p>
+          </div>
+        </div>
+        <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+          <p class="text-sm">
+            １つ目の数値：200<br>
+            ２つ目の数値：7<br>
+            和：207<br>
+            差：193<br>
+            積：1400<br>
+            除：28.571428571428573
+          </p>
+        </div>
+        <div class="controller flex justify-end m-4">
+          <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+        </div>
+      </section>
+
+      <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="7">
+        <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+          07. 四則演算　その２
+        </h2>
+        <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+          <p>
+            金額と消費税率を入力して、消費税の金額をコンソールに表示する。
+          </p>
+        </div>
+        <div class="flex mb-10">
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q07. 金額を入力
+            </p>
+          </div>
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q07. 消費税率を入力（%）
+            </p>
+          </div>
+        </div>
+        <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+          <p class="text-sm">
+            金額：200<br>
+            税額：20
+          </p>
+        </div>
+        <div class="controller flex justify-end m-4">
+          <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+        </div>
+      </section>
+
+      <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="8">
+        <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+          08. Math　その１
+        </h2>
+        <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+          <p>
+            半径を値を入力して、円の面積をコンソールに表示する
+          </p>
+          <p class="text-sm mt-3">
+            円の面積は、<span class="text-red-500 italic px-1">半径 × 半径 × 円周率</span>で求めることができます。<br>
+            円周率を表すπは、<span class="text-red-500 italic px-1">Math.PI</span>で提供されています。
+          </p>
+        </div>
+        <div class="flex mb-10">
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q08. 円の半径を入力
+            </p>
+          </div>
+        </div>
+        <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+          <p class="text-sm">
+            円の半径：56<br>
+            円の面積：9852.03456165759
+          </p>
+        </div>
+        <div class="controller flex justify-end m-4">
+          <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+        </div>
+      </section>
+
+      <section class="mb-32 px-3 py-5 bg-white border-4 border-slate-800 rounded-lg" data-question="9">
+        <h2 class="text-xl m-4 mb-10 px-5 py-2 border-l-4 border-pink-600">
+          09. Math　その２
+        </h2>
+        <div class="bg-amber-50 m-4 mb-10 p-4 border border-amber-400 rounded-md">
+          <p>
+            小数点以下の桁数を指定した数値の結果をコンソールに表示する。
+            計算した結果は小数点以下２桁までを表示する。
+          </p>
+        </div>
+        <div class="flex mb-10">
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q09. １つ目の数値を入力
+            </p>
+          </div>
+          <div class="grow bg-teal-50 m-4 p-4 border border-teal-400 rounded-md">
+            <p class="text-sm">
+              Q09. ２つ目の数値を入力
+            </p>
+          </div>
+        </div>
+        <div class="bg-fuchsia-50 m-4 mb-10 p-4 border border-fuchsia-400 rounded-md">
+          <p class="text-sm">
+            １つ目の数値：851<br>
+            ２つ目の数値：9<br>
+            そのままの結果：94.55555555555556<br>
+            小数点を丸めた結果：94.55
+          </p>
+        </div>
+        <div class="controller flex justify-end m-4">
+          <button class="w-32 text-white px-3 py-2 bg-pink-600 hover:bg-pink-700 rounded-md">実行</button>
+        </div>
+      </section>
+
+    </div><!-- /.container -->
+  </div><!-- /.wrapper -->
+
+  <script src="JS/workbook-01.js"></script>
+  <script src="JS/common.js"></script>
+
+</body>
+
+</html>
